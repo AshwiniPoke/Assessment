@@ -1,0 +1,415 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-weight: 100;
+    background-color: #EEF3F4;
+    overflow-x: hidden;
+
+}
+
+.Top-header {
+    background-color: #A67744;
+    color: white;
+    padding: 1vh;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.navigation-bar {
+    background-color: #E2E6E9;
+}
+
+.nav-link {
+    font-weight: bold;
+    font-size: 12px;
+    color: #354E57;
+}
+
+.navbar-brand {
+    font-size: 32px;
+    color: #293D45;
+}
+
+.navbar2 {
+    padding: 0;
+}
+.mobile-navbar{
+    display: none;
+}
+
+.sec1_bgimg {
+    background: transparent url("../Adobe-UI-Assessment/images/bgimg1.png") right;
+    background-repeat: no-repeat;
+    opacity: 1;
+    height: 73vh;
+    width: 100%;
+    position: relative;
+}
+
+.overlapImg {
+    background: url("../Adobe-UI-Assessment/images/plant1.png")200px;
+    background-repeat: no-repeat;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.overlapImg2 {
+    background: url("../Adobe-UI-Assessment/images/plant2.png")420px;
+    background-repeat: no-repeat;
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.overlapImg3 {
+    background: url("../Adobe-UI-Assessment/images/ezcema.png")370px;
+    background-repeat: no-repeat;
+    opacity: 1;
+    height: 110%;
+    width: 100%;
+    position: absolute;
+}
+
+.btn {
+    width: 173px;
+    height: 35px;
+    border: 1px solid #354E57;
+    opacity: 1;
+
+}
+#newWord{
+    margin-left: 10%;
+}
+
+.sec1_heading {
+padding-left: 10%;
+    width: 62%;
+    font-weight: 800;
+
+}
+
+.sec1_div1 {
+padding-left: 10%;
+    width: 80%;
+}
+.sec1_btn{
+    margin-left: 10%;
+}
+
+.section2 {
+    background-color: #EEF3F4;
+}
+
+.card {
+    background-color: #EEF3F4;
+    width: 100%;
+    height: 100%;
+}
+
+.card-title {
+    letter-spacing: 0px;
+    color: #2E2E22;
+    opacity: 1;
+    margin: 0;
+}
+
+.card-text {
+    font-size: 14px;
+    letter-spacing: 0px;
+    color: #2E2E22;
+    opacity: 1;
+    margin-top: 0;
+}
+
+.sec2_cards {
+    padding: 6vh;
+    margin: 6vh;
+}
+
+.card-img-top {
+    /* height: 50%;
+    width: 65%; */
+    margin: 1%;
+    width: 90%;
+    height: 25vw;
+    object-fit: cover;
+    background-color: white;
+    justify-content: center;
+}
+
+.sec3_bgimg2 {
+    background: url("../Adobe-UI-Assessment/images/man_in_blue.png");
+    background-repeat: no-repeat;
+    object-fit: cover;
+    opacity: 1;
+    height: 100vh;
+    width: 100% !important;
+
+}
+
+/* .section3 {
+    background-color: #547665;
+} */
+
+#sec3_div1 {
+    color: white;
+    background-color: #547665;
+
+}
+
+.sec4_cards {
+    padding: 6vh;
+    margin: 6vh;
+}
+.section5{
+    background-color: #C6B9B6;
+}
+.sec6{
+    padding: 3rem;
+    margin:3rem;
+}
+
+.section7 {
+    background-color: #F7F7F7;
+}
+
+.ingName {
+    margin-bottom: 0;
+}
+
+.footer {
+    background-color: #354E57;
+    color: white;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    padding-top: 7vh;
+}
+
+input {
+    background-color: #354E57;
+    border: 1px solid white;
+}
+
+.footerlist {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style-type: none;
+    font-size: 12px;
+}
+
+.border1 {
+    border: 1px solid #547665;
+}
+
+.sec5bgimg {
+    background: url("../Adobe-UI-Assessment/images/hand_with_bracelate.png") center;
+    background-repeat: no-repeat;
+    opacity: 1;
+    height: 95vh;
+    width: 100%;
+}
+
+#sec5_div2 {
+    background-color: #C6B9B6;
+    padding-top: 10%;
+}
+
+.addToCartBtn {
+    border: 1 px solid #354E57;
+    color: black;
+    background-color: #EEF3F4;
+    width: 100%;
+}
+
+.addToCartBtn :hover {
+    background-color: white;
+    text-decoration: none;
+}
+
+.vrline {
+    border-right: 1px solid gray;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.sec8_part1{
+    padding: 2%;
+}
+
+.sec8-part2 {
+    background-color: white;
+}
+
+hr {
+    margin-bottom: 0;
+    background-color: white;
+}
+
+.for_mobile {
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .Top-header {
+        font-size: 0.8em;
+    }
+
+    .navigation-bar {
+        display: none;
+    }
+    .mobile-navbar{
+        display: contents;
+        background-color: #E2E6E9;
+    }
+
+    #newWord {
+        display: none;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .btn {
+        font-size: 0.8em;
+    }
+
+    .sec2_cards {
+        padding: 2vh;
+        margin: 2vh;
+    }
+
+    .sec4_cards {
+        padding: 2vh;
+        margin: 2vh;
+    }
+
+    body {
+        font-size: 0.8em;
+    }
+
+    h5 {
+        font-size: 0.8em;
+        font-weight: 600;
+    }
+
+    .section1 {
+        background-color: #E2E6E9;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .addToCartBtn {
+        font-size: 0.8em;
+    }
+
+    .fa-shopping-cart {
+        display: none;
+    }
+
+    .card-text {
+        font-size: 0.7em;
+    }
+
+    .price {
+        font-size: 0.7em;
+    }
+
+    #sec5_div2 {
+        padding: 0;
+        margin: 0;
+        padding-bottom: 2vh;
+    }
+    .sec6{
+        padding:0;
+        margin:2%;
+    }
+
+    .section6 {
+        padding: 0%;
+        display: inline;
+        overflow-y: scroll;
+    }
+
+    .footerLink {
+        font-size: 12px;
+    }
+
+    .vrline {
+        border: none;
+        /* padding: 6%; */
+    }
+
+    .for_desktop {
+        display: none;
+    }
+
+    .for_mobile {
+        display: contents;
+    }
+    .section5{
+        background-color:#EEF3F4;
+    }
+
+    .sec8-part2 {
+        padding: 10vw;
+    }
+
+    .sec1_bgimg {
+        background: transparent url(../Adobe-UI-Assessment/images/bgimg1.png) -280px;
+        background-repeat: no-repeat;
+        opacity: 1;
+        height: 70vh;
+        width: 100%;
+        position: relative;
+    }
+
+    .overlapImg {
+        background: url(../Adobe-UI-Assessment/images/plant1.png)7px;
+        background-repeat: no-repeat;
+        opacity: 1;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+
+    .overlapImg2 {
+        background: url(../Adobe-UI-Assessment/images/plant2.png)170px;
+        background-repeat: no-repeat;
+        opacity: 1;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+
+    .overlapImg3 {
+        background: url(../Adobe-UI-Assessment/images/ezcema.png)147px 242px;
+        background-repeat: no-repeat;
+        opacity: 1;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+    .mobile-slider{
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+    }
+  .card-img-top{
+      height:36vh;
+  }
+   
+}
